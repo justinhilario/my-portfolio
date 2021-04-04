@@ -1,7 +1,7 @@
 ---
 introduction: "<h1> Hello World. </h1>"
-tagline: 'Full-Stack Software Engineer'
-cta_label: 'Download CV'
+tagline: 'Full-Stack Software Developer'
+cta_label: 'Download Resume'
 cta_link: 'https://github.com/Knochenmark/gatsby-starter-level-2/blob/master/README.md'
 ---
 
