@@ -3,7 +3,7 @@ cards:
   - label: Back-End
     icon: cogs
     prefix: fas
-    description: RubyOnRails · Active Record · PostgresQL
+    description: Ruby on Rails · Active Record · PostgresQL
   - label: Front-End 
     icon: code
     prefix: fas
@@ -11,5 +11,5 @@ cards:
   - label: Testing & Version Control
     icon: code-branch
     prefix: fas
-    description: Jest · Rspec · Git
+    description: Jest · RSpec · Git
 ---

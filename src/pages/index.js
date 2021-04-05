@@ -27,7 +27,7 @@ const Index = ({ data }) => {
       <SEO title="Home" />
       <Hero data={heroData} />
       <About data={data.about} />
-      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="Our Features" id="features" />
+      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="Tech Stack" id="features" />
       <FeaturedProjects featured={data.featuredProjects.nodes} />
       <Contact data={data.contact} />
     </Layout>
@@ -86,7 +86,7 @@ export const query = graphql`
     }
 
     featuredProjects: allMarkdownRemark(
-      limit: 3
+      limit: 4
       sort: { order: DESC, fields: frontmatter___date }
       filter: { fileAbsolutePath: { regex: "/content/projects/" }, frontmatter: { featured: { eq: true } } }
     ) {
@@ -106,34 +106,6 @@ export const query = graphql`
           }
         }
         html
-      }
-    }
-
-    blog: allMarkdownRemark(
-      sort: { order: DESC, fields: frontmatter___date }
-      limit: 4
-      filter: { fileAbsolutePath: { regex: "/content/posts/" }, frontmatter: { published: { ne: false } } }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            tags
-            date(formatString: "D MMMM, YYYY")
-            description
-            cover_image {
-              childImageSharp {
-                fluid(maxWidth: 800) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          excerpt
-          fields {
-            slug
-          }
-        }
       }
     }
 

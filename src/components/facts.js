@@ -25,7 +25,7 @@ const StyledFactNumber = styled.section`
   & > .fact {
     position: relative;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 0.5rem 1rem;
     background-color: var(--bg-color);
     margin-left: 2rem;

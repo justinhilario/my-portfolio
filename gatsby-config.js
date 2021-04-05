@@ -5,9 +5,9 @@ module.exports = {
     titleTemplate: 'Portfolio - Justin Hilario',
     image: 'images/logo.png',
     author: 'Justin Hilario',
-    description: 'Gatsby starter to quickly setup your portfolio and boost it to the next level.',
+    description: 'Justin Hilario Full-Stack Developer Portfolio',
     url: 'https://justinhilario.co',
-    paginationPageSize: 4, // Amount of posts displayed per listing page.
+    paginationPageSize: 5, // Amount of posts displayed per listing page.
   },
   plugins: [
     {
