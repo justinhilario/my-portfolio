@@ -27,6 +27,7 @@ const StyledFeaturedProject = styled.article`
   &:nth-of-type(even) * {
     direction: ltr;
   }
+  
 `;
 const StyledProjectInfoContainer = styled.section`
   display: flex;
@@ -42,7 +43,7 @@ const StyledDescription = styled.section`
   > p {
     height: 100%;
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     overflow: hidden;
   }
 `;
@@ -122,9 +123,6 @@ const FeaturedProjects = ({ featured }) => {
     <StyledSection id="projects">
       <StyledH1>Projects</StyledH1>
       {featuredProjects}
-      <StyledArchiveContainer>
-        <TextLink label="View More Projects" link="/projects" />
-      </StyledArchiveContainer>
     </StyledSection>
   );
 };

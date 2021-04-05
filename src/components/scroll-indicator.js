@@ -23,7 +23,7 @@ const StyledMouse = styled.div`
   width: 20px;
   height: 30px;
   padding: 0 6px;
-  border: 2px solid #fff;
+  border: 1px solid var(--primary-color);
   border-radius: 20px;
 `;
 const StyledScroller = styled.div`
@@ -41,7 +41,7 @@ const StyledScroller = styled.div`
   animation-iteration-count: infinite;
 `;
 const StyledScrollText = styled.span`
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 20px 0;
 `;
 

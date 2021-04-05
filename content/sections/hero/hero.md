@@ -1,8 +1,8 @@
 ---
 introduction: "<h1> Hello World. </h1>"
 tagline: 'Full-Stack Software Developer'
-cta_label: 'Download Resume'
-cta_link: 'https://github.com/Knochenmark/gatsby-starter-level-2/blob/master/README.md'
+cta_label: 'Resume'
+cta_link: 'https://www.dropbox.com/s/q91b6m0ydlz4maa/Justin_Hilario_FullStack_Developer_Tech_Resume.pdf?dl=0'
 ---
 
-Freelance photographer turned software developer, driven by the love of collaboration to build efficient code and engaging full-stack web experiences through the lens of a creative background. 
+Driven by the love of collaboration to build engaging full-stack web experiences through the lens of a creative background. 
