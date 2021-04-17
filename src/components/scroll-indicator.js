@@ -48,7 +48,7 @@ const StyledScrollText = styled.span`
 const ScrollIndicator = () => {
   return (
     <StyledContainer>
-      <StyledScrollText>Scroll down</StyledScrollText>
+      <StyledScrollText>Scroll for more</StyledScrollText>
       <StyledMouse>
         <StyledScroller />
       </StyledMouse>
