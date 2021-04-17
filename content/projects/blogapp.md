@@ -1,6 +1,6 @@
 ---
 featured: true
-date: '2020-03-15'
+date: '2021-04-10'
 title: 'Blog App'
 cover_image: './images/blogger.jpg'
 repo_link: 'https://github.com/justinhilario/rails-blog'
