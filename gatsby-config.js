@@ -10,6 +10,8 @@ module.exports = {
     paginationPageSize: 5, // Amount of posts displayed per listing page.
   },
   plugins: [
+    `gatsby-plugin-stylus`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-remark-images',
       options: {
@@ -17,8 +19,6 @@ module.exports = {
         withWebp: true,
       },
     },
-    `gatsby-plugin-stylus`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
