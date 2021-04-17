@@ -8,6 +8,6 @@ demo_link: 'https://competent-sammet-d117e6.netlify.app'
 techs: ['React', 'Javascript', 'CSS']
 ---
 
-* React.js front-end application with custom css styling. 
+* My first experience building a React.js front-end application with simple css styling. 
 * User can input a statement or question and receive a message from Kazaam, the title character from the 1996 comedy film featuring Shaquille O'Neal.
 
