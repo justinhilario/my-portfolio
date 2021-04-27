@@ -18,7 +18,7 @@ module.exports = {
         maxWidth: 1920,
         withWebp: true,
       },
-    },d 
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
